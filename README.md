@@ -79,8 +79,8 @@ quadrantChart
 
 ## 5. Yêu cầu nghiệp vụ (Business Requirements)
 
-| ID          | Yêu cầu nghiệp vụ | Mô tả |
-|-----------|----|----|
+| ID     | Yêu cầu nghiệp vụ | Mô tả |
+|--------|---|---|
 | BR-01 | **Đặt xe trực tuyến** | Cho phép khách hàng đặt xe trực tuyến một cách nhanh chóng và thuận tiện. |
 | BR-02 | **Tự động tìm và phân công tài xế** | Tự động tìm tài xế phù hợp dựa trên vị trí, trạng thái sẵn sàng và các tiêu chí vận hành. |
 | BR-03 | **Theo dõi chuyến đi** | Cho phép khách hàng theo dõi trạng thái chuyến đi, thông tin tài xế và thời gian dự kiến tài xế đến. |
@@ -95,8 +95,3 @@ quadrantChart
 | BR-12 | **Khả năng mở rộng và ổn định** | Đảm bảo hệ thống có thể phục vụ số lượng lớn người dùng và hạn chế ảnh hưởng khi một thành phần gặp sự cố. |
 | BR-13 | **Khả năng mở rộng tính năng** | Cho phép bổ sung loại dịch vụ, phương thức thanh toán, kênh thông báo và các tính năng mới trong tương lai. |
 
-| ID     | Yêu cầu nghiệp vụ | Mô tả |
-|--------|---|---|
-| BR-01  | **Đặt xe trực tuyến** | Cho phép khách hàng đặt xe trực tuyến. |
-| BR-02  | **Tự động tìm và phân công tài xế** | Tự động tìm tài xế phù hợp. |
-| BR-03  | **Theo dõi chuyến đi** | Cho phép khách hàng theo dõi chuyến đi. |
