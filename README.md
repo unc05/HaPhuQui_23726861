@@ -366,6 +366,7 @@ flowchart LR
     %% ================= PAYMENT =================
     UC15 --> Payment
 
+```
 ## 8. Đặc tả Use case
 
 ## 9. Phân tích quy trình nghiệp vụ ( BUSINESS PROCESS )
