@@ -16,7 +16,7 @@ Hệ thống đặt xe hiện tại của công ty ABC còn tồn tại nhiều 
 
 ## 2.Stakeholders
 
-| # | Stakeholder | Vai trò | Mối quan tâm chính | Mức độ ảnh hưởng |
+| STT | Stakeholder | Vai trò | Mối quan tâm chính | Mức độ ảnh hưởng |
 |---|---|---|---|---|
 | 1 | **Ban giám đốc** | Chủ dự án, ra quyết định | Doanh thu, hiệu quả vận hành, khả năng mở rộng, tiến độ 7 tuần | Rất cao |
 | 2 | **Khách hàng** | Người sử dụng dịch vụ | Đặt xe, theo dõi chuyến, thanh toán, đánh giá tài xế | Cao |
@@ -26,3 +26,17 @@ Hệ thống đặt xe hiện tại của công ty ABC còn tồn tại nhiều 
 | 6 | **Payment Provider** | Nhà cung cấp thanh toán bên ngoài | Xử lý và trả kết quả giao dịch điện tử | Trung bình - Cao |
 | 7 | **Notification Provider** | Nhà cung cấp dịch vụ thông báo | Gửi Push Notification, SMS, Email | Trung bình |
 | 8 | **Map/Location Provider** | Nhà cung cấp bản đồ và định vị | Vị trí, khoảng cách, ETA | Trung bình - Cao |
+
+
+## 3. Stakeholder Matrix
+
+| Stakeholder | Power | Interest | Strategy |
+|---|---|---|---|
+| **Ban giám đốc** | Cao | Cao | **Manage Closely** – Thường xuyên cập nhật tiến độ, rủi ro và các quyết định quan trọng |
+| **Khách hàng** | Thấp | Cao | **Keep Informed** – Thu thập feedback và cập nhật các thay đổi ảnh hưởng đến trải nghiệm |
+| **Tài xế** | Thấp | Cao | **Keep Informed** – Thu thập nhu cầu, feedback và đảm bảo quy trình nhận/thực hiện chuyến phù hợp |
+| **Nhân viên vận hành** | Cao | Cao | **Manage Closely** – Tham gia phân tích nghiệp vụ, kiểm thử và xác nhận quy trình |
+| **Admin** | Cao | Cao | **Manage Closely** – Tham gia xác định yêu cầu quản trị, bảo mật và phân quyền |
+| **Payment Provider** | Cao | Trung bình | **Keep Satisfied** – Đảm bảo tích hợp, giao dịch và xử lý lỗi hoạt động ổn định |
+| **Notification Provider** | Trung bình | Trung bình | **Monitor** – Theo dõi khả năng tích hợp và trạng thái dịch vụ |
+| **Map/Location Provider** | Cao | Trung bình | **Keep Satisfied** – Đảm bảo dữ liệu vị trí, khoảng cách và ETA hoạt động ổn định |
