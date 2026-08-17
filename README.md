@@ -41,3 +41,27 @@ Mục tiêu: Xây dựng nền tảng đặt xe có khả năng phục vụ số
 | **Payment Provider** | Cao | Trung bình | **Keep Satisfied** – Đảm bảo tích hợp, giao dịch và xử lý lỗi hoạt động ổn định |
 | **Notification Provider** | Trung bình | Trung bình | **Monitor** – Theo dõi khả năng tích hợp và trạng thái dịch vụ |
 | **Map/Location Provider** | Cao | Trung bình | **Keep Satisfied** – Đảm bảo dữ liệu vị trí, khoảng cách và ETA hoạt động ổn định |
+
+
+## 4. Stakeholder Matrix
+
+```mermaid
+quadrantChart
+    title CAB System - Stakeholder Matrix
+    x-axis Low Interest --> High Interest
+    y-axis Low Power --> High Power
+
+    quadrant-1 Manage Closely
+    quadrant-2 Keep Satisfied
+    quadrant-3 Monitor
+    quadrant-4 Keep Informed
+
+    "Ban giam doc": [0.90, 0.95]
+    "Operation Staff": [0.90, 0.85]
+    "Admin": [0.85, 0.85]
+    "Payment Provider": [0.50, 0.75]
+    "Map Location Provider": [0.50, 0.70]
+    "Customer": [0.90, 0.35]
+    "Driver": [0.85, 0.35]
+    "Notification Provider": [0.40, 0.35]
+```
