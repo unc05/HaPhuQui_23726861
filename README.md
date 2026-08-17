@@ -32,7 +32,7 @@ Hệ thống đặt xe hiện tại của công ty ABC còn tồn tại nhiều 
 | 8 | **Map / Location Provider** | Cung cấp dịch vụ bản đồ, định vị và ETA |
 
 
-## 3. Stakeholder Matrix
+##  Stakeholder Matrix
 
 | Stakeholder | Power | Interest | Strategy |
 |---|---|---|---|
@@ -68,7 +68,7 @@ quadrantChart
     "Driver": [0.85, 0.35]
     "Notification Provider": [0.40, 0.35]
 ```
-##  3 Mục đích nghiệp vụ
+##  3. Mục đích nghiệp vụ
 
 | ID | Mục đích nghiệp vụ | Mô tả |
 |---|---|---|
@@ -84,7 +84,7 @@ quadrantChart
 | BO-10 | **Nâng cao độ ổn định và bảo mật** | Đảm bảo hệ thống hoạt động ổn định, bảo vệ dữ liệu và hạn chế ảnh hưởng khi một thành phần gặp sự cố. |
 
 
-## 7. Kế hoạch triển khai 7 tuần
+## 4. Kế hoạch triển khai 7 tuần
 
 ### Tuần 1 - Phân tích và xác định yêu cầu
 
@@ -218,7 +218,14 @@ quadrantChart
 - Hệ thống được triển khai.
 - Hoàn thành tài liệu bàn giao.
 
-## 4. System Users
+
+
+
+
+
+
+
+## . System Users
 
 | # | User | Mục đích sử dụng |
 |---|---|---|
@@ -228,7 +235,7 @@ quadrantChart
 | 4 | **Admin** | Quản trị hệ thống, phân quyền và theo dõi audit log |
 
 
-## 5. Yêu cầu nghiệp vụ (Business Requirements)
+## . Yêu cầu nghiệp vụ (Business Requirements)
 
 | ID     | Yêu cầu nghiệp vụ | Mô tả |
 |--------|---|---|
