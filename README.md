@@ -84,17 +84,17 @@ quadrantChart
 | BO-10 | **Nâng cao độ ổn định và bảo mật** | Đảm bảo hệ thống hoạt động ổn định, bảo vệ dữ liệu và hạn chế ảnh hưởng khi một thành phần gặp sự cố. |
 
 
-## 7. Kế hoạch triển khai 7 tuần
+## 4.Kế hoạch triển khai 7 tuần
 
-| Tuần | Nội dung thực hiện | Kết quả |
-|---|---|---|
-| **Tuần 1** | Phân tích yêu cầu, xác định phạm vi, phân tích các bên liên quan, xác định người dùng, mục đích và yêu cầu nghiệp vụ | Hoàn thành tài liệu phân tích yêu cầu và phạm vi MVP |
-| **Tuần 2** | Xây dựng chức năng đăng ký, đăng nhập, quản lý khách hàng, tài xế và phương tiện | Hoàn thành quản lý người dùng, tài xế và phương tiện |
-| **Tuần 3** | Xây dựng chức năng đặt xe, quản lý chuyến đi, tìm kiếm và phân công tài xế | Hoàn thành quy trình đặt xe và phân công tài xế |
-| **Tuần 4** | Xây dựng chức năng theo dõi vị trí, cập nhật trạng thái chuyến đi và gửi thông báo | Hoàn thành theo dõi chuyến đi và hệ thống thông báo |
-| **Tuần 5** | Xây dựng chức năng tính cước, thanh toán tiền mặt, thanh toán điện tử và xử lý thanh toán thất bại | Hoàn thành tính cước và thanh toán |
-| **Tuần 6** | Xây dựng giao diện vận hành, báo cáo, phân quyền, bảo mật và lưu vết thao tác | Hoàn thành các chức năng quản trị và vận hành |
-| **Tuần 7** | Kiểm thử tích hợp, kiểm thử người dùng, sửa lỗi, kiểm thử hiệu năng và triển khai hệ thống | Hoàn thành kiểm thử, triển khai và bàn giao |
+| Tuần | Module | Nội dung chính | Kết quả |
+|---|---|---|---|
+| **Tuần 1** | **Module 1 - Nền tảng & Xác thực** | Đăng ký, đăng nhập, xác thực, phân quyền, quản lý tài khoản | Hoàn thành nền tảng người dùng và xác thực |
+| **Tuần 2** | **Module 2 - Khách hàng** | Hồ sơ khách hàng, tạo yêu cầu đặt xe, điểm đón, điểm đến, loại xe, lịch sử chuyến | Hoàn thành chức năng phía khách hàng |
+| **Tuần 3** | **Module 3 - Tài xế & Phương tiện** | Hồ sơ tài xế, phương tiện, trạng thái Online/Offline, cập nhật vị trí | Hoàn thành quản lý tài xế và phương tiện |
+| **Tuần 4** | **Module 4 - Đặt xe & Phân công tài xế** | Tìm tài xế, ưu tiên tài xế, gửi yêu cầu, nhận/từ chối chuyến, xử lý Timeout, tìm tài xế tiếp theo | Hoàn thành quy trình đặt xe và phân công |
+| **Tuần 5** | **Module 5 - Quản lý chuyến & Thông báo** | Theo dõi chuyến, cập nhật trạng thái, vị trí tài xế, ETA, thông báo cho khách hàng và tài xế | Hoàn thành quy trình thực hiện và theo dõi chuyến |
+| **Tuần 6** | **Module 6 - Tính cước & Thanh toán** | Tính cước, tiền mặt, thanh toán điện tử, tích hợp nhà cung cấp, xử lý thanh toán thất bại | Hoàn thành tính cước và thanh toán |
+| **Tuần 7** | **Module 7 - Vận hành & Báo cáo** | Quản lý khách hàng, tài xế, phương tiện, chuyến đi, giao dịch, báo cáo, audit log và kiểm thử | Hoàn thành hệ thống vận hành, kiểm thử và bàn giao |
 
 
 
