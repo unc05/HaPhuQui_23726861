@@ -47,7 +47,7 @@ Hệ thống đặt xe hiện tại của công ty ABC còn tồn tại nhiều 
 
 
 
-
+(MERMAID)
 ```mermaid
 quadrantChart
     title CAB System - Stakeholder Matrix
@@ -116,7 +116,7 @@ quadrantChart
 | BR-12 | **Khả năng mở rộng và ổn định** | Đảm bảo hệ thống có thể phục vụ số lượng lớn người dùng và hạn chế ảnh hưởng khi một thành phần gặp sự cố. |
 | BR-13 | **Khả năng mở rộng tính năng** | Cho phép bổ sung loại dịch vụ, phương thức thanh toán, kênh thông báo và các tính năng mới trong tương lai. |
 
-##  (Functional Requirements)
+## 6. Functional Requirements
 
 ### BR-01 - Đặt xe trực tuyến
 
@@ -264,15 +264,113 @@ quadrantChart
 | <code>FR-13.4</code> | Thay đổi thành phần | Cho phép thay thế hoặc thay đổi một thành phần mà hạn chế ảnh hưởng đến các chức năng khác. |
 | <code>FR-13.5</code> | Bổ sung chức năng mới | Cho phép phát triển và triển khai chức năng mới từng phần mà hạn chế ảnh hưởng đến hệ thống đang hoạt động. |
 
+## 7. Use case diagram
+### 7.1. Actors
 
-
-
-
-## . System Users
-
-| # | User | Mục đích sử dụng |
+| ID | Actor | Vai trò |
 |---|---|---|
-| 1 | **Customer** | Đặt xe, theo dõi chuyến, thanh toán và đánh giá tài xế |
-| 2 | **Driver** | Nhận chuyến, thực hiện chuyến và cập nhật vị trí/trạng thái |
-| 3 | **Operation Staff** | Theo dõi và quản lý hoạt động đặt xe, xử lý sự cố |
-| 4 | **Admin** | Quản trị hệ thống, phân quyền và theo dõi audit log |
+| **A01** | **Khách hàng (Customer)** | Đăng ký/đăng nhập, đặt xe, theo dõi chuyến đi, thanh toán và đánh giá tài xế sau chuyến. |
+| **A02** | **Tài xế (Driver)** | Quản lý hồ sơ và phương tiện, cập nhật trạng thái sẵn sàng, nhận/từ chối chuyến, cập nhật trạng thái và vị trí trong quá trình thực hiện chuyến. |
+| **A03** | **Nhân viên vận hành (Operator)** | Quản lý khách hàng, tài xế, phương tiện, chuyến đi và giao dịch; giám sát hoạt động và xử lý các trường hợp chuyến bị lỗi. |
+| **A04** | **Cổng thanh toán (Payment Gateway)** | Hệ thống bên ngoài xử lý giao dịch thanh toán điện tử và trả kết quả giao dịch về CAB System. |
+
+(mermaid)
+
+
+```mermaid
+flowchart LR
+
+    %% ================= ACTORS =================
+    Customer["👤 Khách hàng"]
+    Driver["🚗 Tài xế"]
+    Operator["🧑‍💼 Nhân viên vận hành"]
+    Payment["💳 Cổng thanh toán"]
+
+    %% ================= CAB SYSTEM =================
+    subgraph CAB["CAB SYSTEM"]
+
+        %% Customer
+        UC01(["Đăng ký tài khoản"])
+        UC02(["Đăng nhập"])
+        UC03(["Quản lý hồ sơ"])
+        UC04(["Đặt xe"])
+        UC05(["Theo dõi chuyến đi"])
+        UC06(["Hủy chuyến"])
+        UC07(["Đánh giá chuyến đi"])
+
+        %% Driver
+        UC08(["Nhận yêu cầu chuyến"])
+        UC09(["Chấp nhận / Từ chối chuyến"])
+        UC10(["Cập nhật trạng thái chuyến"])
+        UC11(["Cập nhật vị trí"])
+
+        %% Core system
+        UC12(["Tìm tài xế"])
+        UC13(["Phân công tài xế"])
+        UC14(["Tính cước"])
+        UC15(["Thanh toán"])
+        UC16(["Gửi thông báo"])
+
+        %% Operator
+        UC17(["Quản lý khách hàng"])
+        UC18(["Quản lý tài xế"])
+        UC19(["Quản lý phương tiện"])
+        UC20(["Giám sát chuyến đi"])
+        UC21(["Xử lý chuyến lỗi"])
+        UC22(["Tra cứu giao dịch"])
+        UC23(["Báo cáo & thống kê"])
+        UC24(["Quản lý quyền"])
+        UC25(["Tra cứu Audit Log"])
+    end
+
+    %% ================= CUSTOMER =================
+    Customer --> UC01
+    Customer --> UC02
+    Customer --> UC03
+    Customer --> UC04
+    Customer --> UC05
+    Customer --> UC06
+    Customer --> UC07
+    Customer --> UC15
+
+    %% ================= DRIVER =================
+    Driver --> UC02
+    Driver --> UC03
+    Driver --> UC08
+    Driver --> UC09
+    Driver --> UC10
+    Driver --> UC11
+
+    %% ================= OPERATOR =================
+    Operator --> UC02
+    Operator --> UC17
+    Operator --> UC18
+    Operator --> UC19
+    Operator --> UC20
+    Operator --> UC21
+    Operator --> UC22
+    Operator --> UC23
+    Operator --> UC24
+    Operator --> UC25
+
+    %% ================= SYSTEM FLOW =================
+    UC04 --> UC12
+    UC12 --> UC13
+    UC13 --> UC08
+
+    UC09 --> UC10
+    UC10 --> UC14
+    UC10 --> UC16
+
+    UC15 --> UC16
+
+    %% ================= PAYMENT =================
+    UC15 --> Payment
+
+## 8. Đặc tả Use case
+
+## 9. Phân tích quy trình nghiệp vụ ( BUSINESS PROCESS )
+
+## 10. Phân tích quy tắc nghiệp vụ ( BUSINESS RULES)
+
+
