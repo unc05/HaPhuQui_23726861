@@ -98,21 +98,7 @@ quadrantChart
 
 
 
-
-
-
-
-## . System Users
-
-| # | User | Mục đích sử dụng |
-|---|---|---|
-| 1 | **Customer** | Đặt xe, theo dõi chuyến, thanh toán và đánh giá tài xế |
-| 2 | **Driver** | Nhận chuyến, thực hiện chuyến và cập nhật vị trí/trạng thái |
-| 3 | **Operation Staff** | Theo dõi và quản lý hoạt động đặt xe, xử lý sự cố |
-| 4 | **Admin** | Quản trị hệ thống, phân quyền và theo dõi audit log |
-
-
-## . Yêu cầu nghiệp vụ (Business Requirements)
+## 5. Yêu cầu nghiệp vụ (Business Requirements)
 
 | ID     | Yêu cầu nghiệp vụ | Mô tả |
 |--------|---|---|
@@ -130,3 +116,11 @@ quadrantChart
 | BR-12 | **Khả năng mở rộng và ổn định** | Đảm bảo hệ thống có thể phục vụ số lượng lớn người dùng và hạn chế ảnh hưởng khi một thành phần gặp sự cố. |
 | BR-13 | **Khả năng mở rộng tính năng** | Cho phép bổ sung loại dịch vụ, phương thức thanh toán, kênh thông báo và các tính năng mới trong tương lai. |
 
+## . System Users
+
+| # | User | Mục đích sử dụng |
+|---|---|---|
+| 1 | **Customer** | Đặt xe, theo dõi chuyến, thanh toán và đánh giá tài xế |
+| 2 | **Driver** | Nhận chuyến, thực hiện chuyến và cập nhật vị trí/trạng thái |
+| 3 | **Operation Staff** | Theo dõi và quản lý hoạt động đặt xe, xử lý sự cố |
+| 4 | **Admin** | Quản trị hệ thống, phân quyền và theo dõi audit log |
