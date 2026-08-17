@@ -94,3 +94,9 @@ quadrantChart
 | BR-11 | **Bảo mật và kiểm soát truy cập** | Bảo vệ thông tin cá nhân, dữ liệu vị trí, dữ liệu giao dịch và kiểm soát quyền truy cập của người dùng. |
 | BR-12 | **Khả năng mở rộng và ổn định** | Đảm bảo hệ thống có thể phục vụ số lượng lớn người dùng và hạn chế ảnh hưởng khi một thành phần gặp sự cố. |
 | BR-13 | **Khả năng mở rộng tính năng** | Cho phép bổ sung loại dịch vụ, phương thức thanh toán, kênh thông báo và các tính năng mới trong tương lai. |
+
+| ID     | Yêu cầu nghiệp vụ | Mô tả |
+|--------|---|---|
+| BR-01  | **Đặt xe trực tuyến** | Cho phép khách hàng đặt xe trực tuyến. |
+| BR-02  | **Tự động tìm và phân công tài xế** | Tự động tìm tài xế phù hợp. |
+| BR-03  | **Theo dõi chuyến đi** | Cho phép khách hàng theo dõi chuyến đi. |
