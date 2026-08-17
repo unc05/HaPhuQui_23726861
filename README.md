@@ -13,6 +13,7 @@ Hệ thống đặt xe hiện tại của công ty ABC còn tồn tại nhiều 
 - Hệ thống hiện tại khó mở rộng khi số lượng khách hàng và tài xế tăng lên.
 - Việc bổ sung tính năng hoặc tích hợp các dịch vụ mới có thể ảnh hưởng đến các chức năng đang hoạt động.
 
+Mục tiêu: Xây dựng nền tảng đặt xe có khả năng phục vụ số lượng lớn khách hàng và tài xế, tự động hóa việc tìm tài xế, quản lý toàn bộ vòng đời chuyến đi, thanh toán, thông báo và hỗ trợ vận hành.
 
 ## 2. Stakeholders
 
