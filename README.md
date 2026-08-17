@@ -84,140 +84,17 @@ quadrantChart
 | BO-10 | **Nâng cao độ ổn định và bảo mật** | Đảm bảo hệ thống hoạt động ổn định, bảo vệ dữ liệu và hạn chế ảnh hưởng khi một thành phần gặp sự cố. |
 
 
-## 4. Kế hoạch triển khai 7 tuần
+## 7. Kế hoạch triển khai 7 tuần
 
-### Tuần 1 - Phân tích và xác định yêu cầu
-
-- Xác định vấn đề hiện tại.
-- Xác định phạm vi dự án.
-- Xác định các bên liên quan.
-- Xác định người sử dụng hệ thống.
-- Xác định mục đích nghiệp vụ.
-- Xác định yêu cầu nghiệp vụ.
-- Phân tích quy trình nghiệp vụ.
-- Xác định các vấn đề chưa rõ cần xác nhận.
-- Xác định phạm vi phiên bản đầu tiên.
-
-**Kết quả:**
-- Tài liệu phạm vi dự án.
-- Danh sách các bên liên quan.
-- Ma trận các bên liên quan.
-- Danh sách người sử dụng hệ thống.
-- Mục đích nghiệp vụ.
-- Yêu cầu nghiệp vụ.
-- Quy trình nghiệp vụ.
-- Danh sách vấn đề cần xác nhận.
-
-### Tuần 2 - Quản lý người dùng
-
-- Đăng ký tài khoản.
-- Đăng nhập.
-- Xác thực người dùng.
-- Phân quyền người dùng.
-- Quản lý thông tin khách hàng.
-- Quản lý thông tin tài xế.
-- Quản lý phương tiện.
-
-**Kết quả:**
-- Hoàn thành chức năng quản lý khách hàng.
-- Hoàn thành chức năng quản lý tài xế.
-- Hoàn thành chức năng quản lý phương tiện.
-- Hoàn thành xác thực và phân quyền.
-
-### Tuần 3 - Đặt xe và phân công tài xế
-
-- Tạo yêu cầu đặt xe.
-- Nhập điểm đón và điểm đến.
-- Lựa chọn loại xe.
-- Tìm kiếm tài xế phù hợp.
-- Ưu tiên tài xế gần khách hàng.
-- Gửi yêu cầu đến tài xế.
-- Tài xế chấp nhận hoặc từ chối chuyến.
-- Xử lý khi tài xế không phản hồi.
-- Tự động tìm tài xế tiếp theo.
-- Xử lý trường hợp không tìm được tài xế.
-
-**Kết quả:**
-- Hoàn thành quy trình đặt xe.
-- Hoàn thành chức năng tìm tài xế.
-- Hoàn thành chức năng phân công tài xế.
-
-### Tuần 4 - Theo dõi chuyến đi và thông báo
-
-- Cập nhật vị trí tài xế.
-- Theo dõi trạng thái chuyến đi.
-- Tài xế đến điểm đón.
-- Tài xế đã đón khách.
-- Chuyến đi đang thực hiện.
-- Hoàn thành chuyến đi.
-- Gửi thông báo cho khách hàng.
-- Gửi thông báo cho tài xế.
-
-**Kết quả:**
-- Hoàn thành chức năng theo dõi chuyến đi.
-- Hoàn thành cập nhật vị trí.
-- Hoàn thành hệ thống thông báo.
-
-### Tuần 5 - Tính cước và thanh toán
-
-- Xác định số tiền phải trả.
-- Tính cước chuyến đi.
-- Thanh toán bằng tiền mặt.
-- Thanh toán điện tử.
-- Tích hợp nhà cung cấp thanh toán.
-- Xử lý thanh toán thành công.
-- Xử lý thanh toán thất bại.
-- Xử lý thanh toán lại.
-- Lưu lịch sử giao dịch.
-
-**Kết quả:**
-- Hoàn thành chức năng tính cước.
-- Hoàn thành chức năng thanh toán.
-- Hoàn thành xử lý các trường hợp thanh toán thất bại.
-
-### Tuần 6 - Vận hành, báo cáo và bảo mật
-
-- Quản lý khách hàng.
-- Quản lý tài xế.
-- Quản lý phương tiện.
-- Theo dõi các chuyến đang diễn ra.
-- Xử lý các chuyến bị lỗi.
-- Tra cứu lịch sử giao dịch.
-- Phân quyền nhân viên.
-- Quản lý quyền truy cập.
-- Lưu vết các thao tác quan trọng.
-- Báo cáo số lượng chuyến.
-- Báo cáo doanh thu.
-- Báo cáo tỷ lệ hoàn thành.
-- Báo cáo tỷ lệ hủy.
-- Báo cáo hiệu quả tài xế.
-
-**Kết quả:**
-- Hoàn thành giao diện vận hành.
-- Hoàn thành báo cáo.
-- Hoàn thành phân quyền.
-- Hoàn thành lưu vết thao tác.
-
-### Tuần 7 - Kiểm thử và triển khai
-
-- Kiểm thử các chức năng.
-- Kiểm thử tích hợp.
-- Kiểm thử toàn bộ quy trình đặt xe.
-- Kiểm thử thanh toán.
-- Kiểm thử thông báo.
-- Kiểm thử hiệu năng.
-- Kiểm thử bảo mật.
-- Kiểm thử nghiệm thu với khách hàng.
-- Sửa lỗi.
-- Triển khai hệ thống.
-- Hoàn thiện tài liệu.
-
-**Kết quả:**
-- Hoàn thành kiểm thử.
-- Hoàn thành sửa lỗi.
-- Hệ thống được triển khai.
-- Hoàn thành tài liệu bàn giao.
-
+| Tuần | Nội dung thực hiện | Kết quả |
+|---|---|---|
+| **Tuần 1** | Phân tích yêu cầu, xác định phạm vi, phân tích các bên liên quan, xác định người dùng, mục đích và yêu cầu nghiệp vụ | Hoàn thành tài liệu phân tích yêu cầu và phạm vi MVP |
+| **Tuần 2** | Xây dựng chức năng đăng ký, đăng nhập, quản lý khách hàng, tài xế và phương tiện | Hoàn thành quản lý người dùng, tài xế và phương tiện |
+| **Tuần 3** | Xây dựng chức năng đặt xe, quản lý chuyến đi, tìm kiếm và phân công tài xế | Hoàn thành quy trình đặt xe và phân công tài xế |
+| **Tuần 4** | Xây dựng chức năng theo dõi vị trí, cập nhật trạng thái chuyến đi và gửi thông báo | Hoàn thành theo dõi chuyến đi và hệ thống thông báo |
+| **Tuần 5** | Xây dựng chức năng tính cước, thanh toán tiền mặt, thanh toán điện tử và xử lý thanh toán thất bại | Hoàn thành tính cước và thanh toán |
+| **Tuần 6** | Xây dựng giao diện vận hành, báo cáo, phân quyền, bảo mật và lưu vết thao tác | Hoàn thành các chức năng quản trị và vận hành |
+| **Tuần 7** | Kiểm thử tích hợp, kiểm thử người dùng, sửa lỗi, kiểm thử hiệu năng và triển khai hệ thống | Hoàn thành kiểm thử, triển khai và bàn giao |
 
 
 
