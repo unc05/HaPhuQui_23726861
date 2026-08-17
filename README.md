@@ -274,7 +274,6 @@ quadrantChart
 | **A03** | **Nhân viên vận hành (Operator)** | Quản lý khách hàng, tài xế, phương tiện, chuyến đi và giao dịch; giám sát hoạt động và xử lý các trường hợp chuyến bị lỗi. |
 | **A04** | **Cổng thanh toán (Payment Gateway)** | Hệ thống bên ngoài xử lý giao dịch thanh toán điện tử và trả kết quả giao dịch về CAB System. |
 
-(mermaid)
 
 
 ```mermaid
