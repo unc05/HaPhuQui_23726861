@@ -116,6 +116,158 @@ quadrantChart
 | BR-12 | **Khả năng mở rộng và ổn định** | Đảm bảo hệ thống có thể phục vụ số lượng lớn người dùng và hạn chế ảnh hưởng khi một thành phần gặp sự cố. |
 | BR-13 | **Khả năng mở rộng tính năng** | Cho phép bổ sung loại dịch vụ, phương thức thanh toán, kênh thông báo và các tính năng mới trong tương lai. |
 
+## 6. Yêu cầu chức năng (Functional Requirements)
+
+### BR-01 - Đặt xe trực tuyến
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-01.1</code> | Nhập điểm đi | Cho phép khách hàng nhập hoặc chọn điểm đón. |
+| <code>FR-01.2</code> | Nhập điểm đến | Cho phép khách hàng nhập hoặc chọn điểm đến. |
+| <code>FR-01.3</code> | Chọn loại xe | Cho phép khách hàng lựa chọn loại xe phù hợp. |
+| <code>FR-01.4</code> | Tạo yêu cầu đặt xe | Cho phép khách hàng gửi yêu cầu đặt xe với các thông tin đã cung cấp. |
+| <code>FR-01.5</code> | Kiểm tra thông tin đặt xe | Hệ thống kiểm tra tính hợp lệ của thông tin trước khi tạo yêu cầu. |
+| <code>FR-01.6</code> | Xem trạng thái yêu cầu | Cho phép khách hàng xem trạng thái của yêu cầu đặt xe. |
+| <code>FR-01.7</code> | Hủy yêu cầu đặt xe | Cho phép khách hàng hủy yêu cầu theo chính sách của doanh nghiệp. |
+
+### BR-02 - Tự động tìm và phân công tài xế
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-02.1</code> | Xác định tài xế phù hợp | Hệ thống xác định danh sách tài xế dựa trên vị trí, trạng thái sẵn sàng và các tiêu chí vận hành. |
+| <code>FR-02.2</code> | Ưu tiên tài xế | Hệ thống ưu tiên tài xế phù hợp và gần khách hàng. |
+| <code>FR-02.3</code> | Gửi yêu cầu đến tài xế | Hệ thống gửi thông tin chuyến đến tài xế được lựa chọn. |
+| <code>FR-02.4</code> | Xử lý tài xế chấp nhận | Hệ thống ghi nhận tài xế nhận chuyến và cập nhật thông tin chuyến đi. |
+| <code>FR-02.5</code> | Xử lý tài xế từ chối | Hệ thống tiếp tục tìm tài xế khác khi tài xế từ chối chuyến. |
+| <code>FR-02.6</code> | Xử lý tài xế không phản hồi | Hệ thống xác định tài xế không phản hồi trong thời gian quy định và tiếp tục tìm tài xế khác. |
+| <code>FR-02.7</code> | Xử lý không tìm được tài xế | Hệ thống thông báo cho khách hàng khi không tìm được tài xế phù hợp. |
+
+### BR-03 - Theo dõi chuyến đi
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-03.1</code> | Xem thông tin tài xế | Cho phép khách hàng xem thông tin tài xế đã nhận chuyến. |
+| <code>FR-03.2</code> | Xem thông tin phương tiện | Cho phép khách hàng xem thông tin phương tiện được sử dụng cho chuyến đi. |
+| <code>FR-03.3</code> | Theo dõi vị trí tài xế | Cho phép khách hàng theo dõi vị trí hiện tại của tài xế. |
+| <code>FR-03.4</code> | Xem thời gian dự kiến | Hệ thống cung cấp thời gian dự kiến tài xế đến điểm đón. |
+| <code>FR-03.5</code> | Theo dõi trạng thái chuyến | Cho phép khách hàng theo dõi trạng thái hiện tại của chuyến đi. |
+
+### BR-04 - Đánh giá chuyến đi
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-04.1</code> | Đánh giá tài xế | Cho phép khách hàng đánh giá tài xế sau khi chuyến đi hoàn thành. |
+| <code>FR-04.2</code> | Gửi phản hồi | Cho phép khách hàng gửi nhận xét hoặc phản hồi về chuyến đi. |
+| <code>FR-04.3</code> | Kiểm tra điều kiện đánh giá | Hệ thống chỉ cho phép khách hàng đánh giá chuyến đi đã hoàn thành. |
+| <code>FR-04.4</code> | Lưu kết quả đánh giá | Hệ thống lưu thông tin đánh giá và phản hồi của khách hàng. |
+| <code>FR-04.5</code> | Tra cứu đánh giá | Nhân viên có quyền có thể tra cứu đánh giá để theo dõi chất lượng dịch vụ. |
+
+### BR-05 - Tính cước
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-05.1</code> | Xác định thông tin tính cước | Hệ thống thu thập thông tin cần thiết để tính cước chuyến đi. |
+| <code>FR-05.2</code> | Áp dụng chính sách tính cước | Hệ thống áp dụng quy tắc tính cước tương ứng với loại dịch vụ và thông tin chuyến đi. |
+| <code>FR-05.3</code> | Tính số tiền phải trả | Hệ thống tính toán số tiền khách hàng phải thanh toán. |
+| <code>FR-05.4</code> | Hiển thị số tiền | Hệ thống hiển thị số tiền phải trả cho khách hàng. |
+| <code>FR-05.5</code> | Lưu thông tin cước | Hệ thống lưu thông tin tính cước gắn với chuyến đi. |
+
+### BR-06 - Quản lý thanh toán
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-06.1</code> | Thanh toán tiền mặt | Hệ thống cho phép ghi nhận thanh toán bằng tiền mặt. |
+| <code>FR-06.2</code> | Khởi tạo thanh toán điện tử | Hệ thống gửi yêu cầu thanh toán đến nhà cung cấp thanh toán bên ngoài. |
+| <code>FR-06.3</code> | Nhận kết quả thanh toán | Hệ thống tiếp nhận và ghi nhận kết quả giao dịch từ nhà cung cấp thanh toán. |
+| <code>FR-06.4</code> | Xử lý thanh toán thành công | Hệ thống cập nhật trạng thái thanh toán khi giao dịch thành công. |
+| <code>FR-06.5</code> | Xử lý thanh toán thất bại | Hệ thống thông báo cho khách hàng khi giao dịch thất bại. |
+| <code>FR-06.6</code> | Thanh toán lại | Cho phép khách hàng thực hiện lại thanh toán theo chính sách của doanh nghiệp. |
+| <code>FR-06.7</code> | Tra cứu giao dịch | Cho phép nhân viên có quyền tra cứu lịch sử giao dịch. |
+| <code>FR-06.8</code> | Bảo vệ thông tin thanh toán | Hệ thống không lưu trực tiếp thông tin nhạy cảm của thẻ hoặc tài khoản thanh toán. |
+
+### BR-07 - Quản lý thông báo
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-07.1</code> | Thông báo tiếp nhận yêu cầu | Gửi thông báo cho khách hàng khi yêu cầu đặt xe được tiếp nhận. |
+| <code>FR-07.2</code> | Thông báo tài xế nhận chuyến | Gửi thông báo cho khách hàng khi tài xế nhận chuyến. |
+| <code>FR-07.3</code> | Thông báo tài xế đến | Gửi thông báo cho khách hàng khi tài xế đến điểm đón. |
+| <code>FR-07.4</code> | Thông báo trạng thái chuyến | Gửi thông báo khi trạng thái chuyến đi thay đổi. |
+| <code>FR-07.5</code> | Thông báo hoàn thành chuyến | Gửi thông báo cho khách hàng khi chuyến đi hoàn thành. |
+| <code>FR-07.6</code> | Thông báo kết quả thanh toán | Gửi thông báo cho khách hàng về kết quả thanh toán. |
+| <code>FR-07.7</code> | Thông báo chuyến mới | Gửi thông báo cho tài xế khi có yêu cầu chuyến phù hợp. |
+| <code>FR-07.8</code> | Thông báo thay đổi chuyến | Gửi thông báo cho tài xế về các thay đổi liên quan đến chuyến đang thực hiện. |
+
+### BR-08 - Quản lý tài xế và phương tiện
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-08.1</code> | Quản lý hồ sơ tài xế | Cho phép tài xế cập nhật thông tin cá nhân và cho phép nhân viên có quyền quản lý hồ sơ tài xế. |
+| <code>FR-08.2</code> | Quản lý phương tiện | Cho phép quản lý thông tin phương tiện của tài xế. |
+| <code>FR-08.3</code> | Cập nhật trạng thái hoạt động | Cho phép tài xế chuyển sang trạng thái sẵn sàng hoặc không sẵn sàng nhận chuyến. |
+| <code>FR-08.4</code> | Cập nhật vị trí tài xế | Hệ thống tiếp nhận và lưu thông tin vị trí của tài xế. |
+| <code>FR-08.5</code> | Tra cứu trạng thái tài xế | Cho phép nhân viên vận hành xem trạng thái hoạt động của tài xế. |
+| <code>FR-08.6</code> | Tạo tài khoản tài xế | Cho phép nhân viên vận hành tạo tài khoản cho tài xế theo quy trình của doanh nghiệp. |
+
+### BR-09 - Quản lý vận hành
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-09.1</code> | Quản lý khách hàng | Cho phép nhân viên có quyền tra cứu và quản lý thông tin khách hàng. |
+| <code>FR-09.2</code> | Quản lý tài xế | Cho phép nhân viên có quyền tra cứu và quản lý thông tin tài xế. |
+| <code>FR-09.3</code> | Quản lý phương tiện | Cho phép nhân viên có quyền tra cứu và quản lý thông tin phương tiện. |
+| <code>FR-09.4</code> | Theo dõi chuyến đang diễn ra | Cho phép nhân viên vận hành theo dõi các chuyến đang thực hiện. |
+| <code>FR-09.5</code> | Tra cứu chuyến đi | Cho phép nhân viên có quyền tra cứu thông tin và lịch sử chuyến đi. |
+| <code>FR-09.6</code> | Tra cứu giao dịch | Cho phép nhân viên có quyền tra cứu lịch sử giao dịch. |
+| <code>FR-09.7</code> | Xử lý chuyến bị lỗi | Cho phép nhân viên vận hành kiểm tra và xử lý các trường hợp chuyến bị lỗi. |
+| <code>FR-09.8</code> | Quản lý quyền vận hành | Kiểm soát các chức năng quản trị mà từng nhóm nhân viên được phép thực hiện. |
+
+### BR-10 - Báo cáo và thống kê
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-10.1</code> | Báo cáo số lượng chuyến | Cung cấp số lượng chuyến theo khoảng thời gian. |
+| <code>FR-10.2</code> | Báo cáo doanh thu | Cung cấp thông tin doanh thu theo khoảng thời gian. |
+| <code>FR-10.3</code> | Báo cáo tỷ lệ hoàn thành | Cung cấp tỷ lệ chuyến hoàn thành. |
+| <code>FR-10.4</code> | Báo cáo tỷ lệ hủy | Cung cấp tỷ lệ chuyến bị hủy. |
+| <code>FR-10.5</code> | Báo cáo hiệu quả tài xế | Cung cấp các chỉ số phục vụ đánh giá hiệu quả hoạt động của tài xế. |
+| <code>FR-10.6</code> | Lọc và xem báo cáo | Cho phép người dùng có quyền lọc báo cáo theo thời gian và các tiêu chí phù hợp. |
+
+### BR-11 - Bảo mật và kiểm soát truy cập
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-11.1</code> | Xác thực người dùng | Yêu cầu người dùng xác thực trước khi sử dụng các chức năng cần tài khoản. |
+| <code>FR-11.2</code> | Kiểm tra quyền truy cập | Hệ thống kiểm tra quyền trước khi cho phép thực hiện chức năng. |
+| <code>FR-11.3</code> | Phân quyền người dùng | Cho phép quản lý quyền theo vai trò của người dùng. |
+| <code>FR-11.4</code> | Bảo vệ dữ liệu cá nhân | Bảo vệ thông tin cá nhân của khách hàng và tài xế. |
+| <code>FR-11.5</code> | Bảo vệ dữ liệu vị trí | Kiểm soát quyền truy cập và sử dụng dữ liệu vị trí tài xế. |
+| <code>FR-11.6</code> | Bảo vệ dữ liệu giao dịch | Kiểm soát quyền truy cập đối với dữ liệu thanh toán và giao dịch. |
+| <code>FR-11.7</code> | Lưu vết thao tác | Ghi nhận các thao tác quan trọng để phục vụ kiểm tra và điều tra sự cố. |
+
+### BR-12 - Khả năng mở rộng và ổn định
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-12.1</code> | Mở rộng độc lập | Cho phép các thành phần của hệ thống được mở rộng độc lập khi nhu cầu tăng. |
+| <code>FR-12.2</code> | Xử lý lỗi thành phần | Hệ thống tiếp tục cung cấp các chức năng không bị ảnh hưởng khi một thành phần gặp sự cố. |
+| <code>FR-12.3</code> | Xử lý mất kết nối | Hệ thống có cơ chế xử lý phù hợp khi khách hàng, tài xế hoặc thành phần bên ngoài mất kết nối. |
+| <code>FR-12.4</code> | Khôi phục hoạt động | Hệ thống hỗ trợ khôi phục các chức năng bị ảnh hưởng sau khi sự cố được xử lý. |
+
+### BR-13 - Khả năng mở rộng tính năng
+
+| ID | Yêu cầu chức năng | Mô tả |
+|---|---|---|
+| <code>FR-13.1</code> | Thêm loại dịch vụ | Cho phép bổ sung các loại dịch vụ hoặc loại xe mới trong tương lai. |
+| <code>FR-13.2</code> | Thêm phương thức thanh toán | Cho phép tích hợp thêm phương thức hoặc nhà cung cấp thanh toán. |
+| <code>FR-13.3</code> | Thêm kênh thông báo | Cho phép tích hợp thêm các kênh hoặc nhà cung cấp thông báo. |
+| <code>FR-13.4</code> | Thay đổi thành phần | Cho phép thay thế hoặc thay đổi một thành phần mà hạn chế ảnh hưởng đến các chức năng khác. |
+| <code>FR-13.5</code> | Bổ sung chức năng mới | Cho phép phát triển và triển khai chức năng mới từng phần mà hạn chế ảnh hưởng đến hệ thống đang hoạt động. |
+
+
+
+
+
 ## . System Users
 
 | # | User | Mục đích sử dụng |
