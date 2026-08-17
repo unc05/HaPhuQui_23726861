@@ -14,18 +14,18 @@ Hệ thống đặt xe hiện tại của công ty ABC còn tồn tại nhiều 
 - Việc bổ sung tính năng hoặc tích hợp các dịch vụ mới có thể ảnh hưởng đến các chức năng đang hoạt động.
 
 
-## 2.Stakeholders
+## 2. Stakeholders
 
-| STT | Stakeholder | Vai trò 
-|---|---|---|---|---|
-| 1 | **Ban giám đốc** | Chủ dự án, ra quyết định
-| 2 | **Khách hàng** | Người sử dụng dịch vụ
-| 3 | **Tài xế** | Người cung cấp dịch vụ 
-| 4 | **Nhân viên vận hành** | Quản lý và hỗ trợ hoạt động
-| 5 | **Admin** | Quản trị hệ thống 
-| 6 | **Payment Provider** | Nhà cung cấp thanh toán bên ngoài
-| 7 | **Notification Provider** | Nhà cung cấp dịch vụ thông báo
-| 8 | **Map/Location Provider** | Nhà cung cấp bản đồ và định vị 
+| # | Stakeholder | Vai trò |
+|---|---|---|
+| 1 | **Ban giám đốc** | Chủ dự án, ra quyết định và định hướng kinh doanh |
+| 2 | **Khách hàng (Customer)** | Người sử dụng dịch vụ đặt xe |
+| 3 | **Tài xế (Driver)** | Người cung cấp dịch vụ vận chuyển |
+| 4 | **Nhân viên vận hành (Operation Staff)** | Quản lý và hỗ trợ hoạt động đặt xe |
+| 5 | **Admin** | Quản trị hệ thống và phân quyền |
+| 6 | **Payment Provider** | Cung cấp dịch vụ thanh toán điện tử |
+| 7 | **Notification Provider** | Cung cấp dịch vụ gửi thông báo |
+| 8 | **Map / Location Provider** | Cung cấp dịch vụ bản đồ, định vị và ETA |
 
 
 ## 3. Stakeholder Matrix
